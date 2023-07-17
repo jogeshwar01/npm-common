@@ -16,9 +16,9 @@ export * from './events/base-publisher';
 export * from './events/subjects';
 export * from './events/ticket-created-event';
 export * from './events/ticket-updated-event';
+export * from './events/types/order-status';
 // to have cross language support, we cannot do it like this in typescript
 // instead can use these 1)json-schema  2)protobuf  3)apache avro
-
 
 // COMMAND TO BE RUN
 // 1 - npm login
